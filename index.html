@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ivana Rumbočić - .NET Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header sekcija -->
+      <header>
+        <div class="header-content">
+          <img src="me-ish.png" alt="Karikatura" class="profile-img" />
+          <div class="header-text">
+            <h1>Ivana Rumbočić</h1>
+            <p class="subtitle">.NET Backend Developer</p>
+            <p class="contact-info">
+              📧 ivana.bevanda1@gmail.com | 📱 +385 97 727 9911 | 💼
+              <a href="https://www.linkedin.com/in/tvoj-profil" target="_blank"
+                >LinkedIn</a
+              >
+              | 🔗
+              <a href="https://github.com/ctrlaltdelete3" target="_blank"
+                >GitHub</a
+              >
+            </p>
+          </div>
+        </div>
+      </header>
+
+      <!-- O meni -->
+      <section>
+        <h2>👋 O meni</h2>
+        <p>
+          Backend developer s tri godine iskustva u razvoju aplikacija u C# i
+          .NET okruženju. Radila sam na razvoju i održavanju poslovnih
+          aplikacija za financijski sektor, implementaciji novih funkcionalnosti
+          i refaktoriranju postojećeg koda. U svijet IT-a krenula sam spontano i
+          samostalno, a kasnije se usmjerila na .NET tehnologije. Trenutno radim
+          na vlastitom projektu kroz koji nastojim proširiti znanje i prema
+          frontend tehnologijama poput JavaScripta i Reacta.
+        </p>
+      </section>
+
+      <!-- Tehnologije -->
+      <section>
+        <h2>🛠️ Tehnologije</h2>
+        <div class="skills">
+          <span class="skill-tag">C#</span>
+          <span class="skill-tag">.NET</span>
+          <span class="skill-tag">ASP.NET</span>
+          <span class="skill-tag">SQL Server</span>
+          <span class="skill-tag">PostgreSQL</span>
+          <span class="skill-tag">VBA</span>
+          <span class="skill-tag">PowerBI</span>
+          <span class="skill-tag">Azure DevOps</span>
+          <span class="skill-tag">FME</span>
+          <span class="skill-tag">QGIS</span>
+          <span class="skill-tag">AutoCAD</span>
+        </div>
+      </section>
+
+      <!-- Obrazovanje -->
+      <section>
+        <h2>🎓 Obrazovanje</h2>
+
+        <div class="project">
+          <h3>Geodetski fakultet, Zagreb</h3>
+          <p class="tech-used">2011 - 2016</p>
+          <p>
+            Sveučilišni prvostupnik geodezije i geoinformatike (2011 - 2014)
+          </p>
+          <p>
+            Magistra inženjerka geodezije i geoinformatike - smjer
+            Geoinformatika (2014 - 2016)
+          </p>
+        </div>
+      </section>
+
+      <!-- Radno iskustvo -->
+      <section>
+        <h2>💼 Radno iskustvo</h2>
+
+        <div class="project">
+          <h3>Mono d.o.o. (2021 - 2025)</h3>
+          <p>
+            Razvoj i održavanje backend logike u C# (.NET) za aplikacije u
+            financijskom sektoru: implementacija novih funkcionalnosti,
+            refaktoriranje i modernizacija postojećeg koda, rješavanje bugova i
+            pružanje podrške klijentima.
+          </p>
+          <h3>Lidl Hrvatska d.o.o.k.d. (2020)</h3>
+          <p>
+            Obavljanje poslova kao dio controlling tima: controlling procedure,
+            izrada izvještaja, ubrzavanje procesa izradom programa u VBA.
+          </p>
+          <h3>Zavod za fotogrametriju d.d. (2018 - 2020)</h3>
+          <p>Zamjenica voditelja odjela Kartografije i GIS-a.</p>
+          <h3>Geometar d.o.o. (2016 - 2018)</h3>
+          <h3>Ericsson Nikola Tesla Servisi (2015 - 2016, studentski posao)</h3>
+        </div>
+      </section>
+
+      <!-- Dodatno usavršavanje + Jezici -->
+      <div class="two-columns">
+        <section>
+          <h2>📚 Dodatno usavršavanje</h2>
+
+          <div class="project">
+            <p>SQL - napredno korištenje (Algebra)</p>
+            <p>ASP.NET developer tečaj (Algebra)</p>
+            <p>Udemy, edX tečajevi (C#, VBA,...)</p>
+            <p>Osnovni i napredni tečaj FME-a (Multisoft)</p>
+            <p>Stručni ispit (DGU)</p>
+          </div>
+        </section>
+
+        <section>
+          <h2>🌍 Jezici</h2>
+
+          <div class="project">
+            <p>Engleski jezik (B2 - Cambridge ESOL Level 1 Certificate)</p>
+            <p>
+              Njemački jezik (B2/C1 - Deutsches Sprachdiplom) - blago zakržljao
+              od nekorištenja
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <!-- Kontakt forma -->
+      <section class="no-print">
+        <h2>📬 Kontakt</h2>
+        <p>Mislite da bih bila dobar fit za vaš tim? Upišite svoju email adresu i proslijedit ću vam svoj CV!</p>
+
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Vaše ime" required />
+          <input type="email" id="email" placeholder="Vaš email" required />
+          <button type="submit">Pošalji CV</button>
+        </form>
+        <div id="formMessage"></div>
+      </section>
+
+      <!-- Download CV -->
+      <section class="download-section">
+        <h2>📄 Preuzmi CV</h2>
+        <button class="download-btn" onclick="window.print()">Preuzmi PDF</button>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <p>
+          © 2025 Ivana Rumbočić | Dizajnirala ja, kodirao Claude. Tim iz snova.
+          🤝
+        </p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
