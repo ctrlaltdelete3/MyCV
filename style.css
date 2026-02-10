@@ -137,11 +137,17 @@ section p {
 }
 
 /* Kontakt forma */
+.no-print {
+  text-align: center;
+}
+
 form {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 15px;
-  max-width: 600px;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 input,
@@ -151,6 +157,7 @@ textarea {
   border-radius: 5px;
   font-size: 1em;
   font-family: inherit;
+  width: 100%;
 }
 
 input:focus,
@@ -166,8 +173,10 @@ button {
   border: none;
   border-radius: 5px;
   font-size: 1.1em;
+  font-family: inherit;
   cursor: pointer;
   transition: background 0.3s;
+  width: 200px;
 }
 
 button:hover {
@@ -236,21 +245,6 @@ button:hover {
   justify-content: center;
 }
 
-.download-btn {
-  display: inline-block;
-  background: #a8606a;
-  color: white;
-  padding: 15px 40px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 1.1em;
-  font-weight: bold;
-  transition: background 0.3s;
-}
-
-.download-btn:hover {
-  background: #8e4f58;
-}
 
 /* Footer */
 footer {

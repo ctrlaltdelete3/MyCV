@@ -37,7 +37,7 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
     })
     .finally(function () {
       submitBtn.disabled = false;
-      submitBtn.textContent = "Pošalji CV";
+      submitBtn.textContent = "Pošalji mail";
     });
 });
 
