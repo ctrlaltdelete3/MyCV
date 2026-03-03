@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="container">
-      <!-- Header sekcija -->
+      <!-- Header-->
       <header>
         <div class="header-content">
           <img src="me-ish.png" alt="Karikatura" class="profile-img" />
@@ -26,21 +26,22 @@
         </div>
       </header>
 
-      <!-- O meni -->
+      <!-- About me -->
+      <!-- TODO: maybe add about me - tech & about me - cover letter (in separate tabs??)  -->
       <section>
         <h2>👋 O meni</h2>
         <p>
-          Backend developer s tri godine iskustva u razvoju aplikacija u C# i
-          .NET okruženju. Radila sam na razvoju i održavanju poslovnih
-          aplikacija za financijski sektor, implementaciji novih funkcionalnosti
-          i refaktoriranju postojećeg koda. U svijet IT-a krenula sam spontano i
-          samostalno, a kasnije se usmjerila na .NET tehnologije. Trenutno radim
-          na vlastitom projektu kroz koji nastojim proširiti znanje i prema
-          frontend tehnologijama poput JavaScripta i Reacta.
+          Backend .NET developer s tri i pol godine iskustva. Radila sam na
+          razvoju i održavanju financijskih aplikacija za klijente iz bankarskog
+          sektora - implementaciji novih funkcionalnosti, refaktoriranju legacy
+          programa, te održavanju postojećih projekata. U IT svijet sam krenula
+          samostalno, gradeći temeljna znanja kroz VBA, SQL i .NET. Trenutno
+          radim na vlastitom projektu kroz koji želim proširiti znanja i na
+          frontend tehnologije poput JavaScripta i Reacta.
         </p>
       </section>
 
-      <!-- Tehnologije -->
+      <!-- Skills -->
       <section>
         <h2>🛠️ Tehnologije</h2>
         <div class="skills">
@@ -48,7 +49,6 @@
           <span class="skill-tag">.NET</span>
           <span class="skill-tag">ASP.NET</span>
           <span class="skill-tag">SQL Server</span>
-          <span class="skill-tag">PostgreSQL</span>
           <span class="skill-tag">VBA</span>
           <span class="skill-tag">PowerBI</span>
           <span class="skill-tag">Azure DevOps</span>
@@ -58,7 +58,7 @@
         </div>
       </section>
 
-      <!-- Obrazovanje -->
+      <!-- Education -->
       <section>
         <h2>🎓 Obrazovanje</h2>
 
@@ -75,7 +75,7 @@
         </div>
       </section>
 
-      <!-- Radno iskustvo -->
+      <!-- Work experience -->
       <section>
         <h2>💼 Radno iskustvo</h2>
 
@@ -83,10 +83,18 @@
           <h3>Mono d.o.o. (2021 - 2025)</h3>
           <p>
             Razvoj i održavanje backend logike u C# (.NET) za aplikacije u
-            financijskom sektoru: implementacija novih funkcionalnosti,
-            refaktoriranje i modernizacija postojećeg koda, rješavanje bugova i
-            pružanje podrške klijentima.
+            financijskom sektoru:
           </p>
+          <ul>
+            <li>implementacija novih funkcionalnosti</li>
+            <li>refaktoriranje i modernizacija postojećeg koda</li>
+            <li>rješavanje bugova i pružanje podrške klijentima</li>
+            <li>agilni razvoj korištenjem Kanban metodologije</li>
+            <li>
+              svakodnevna komunikacija s partnerima i klijentima iz SAD-a (na
+              samostalnim i timskim projektima)
+            </li>
+          </ul>
           <h3>Lidl Hrvatska d.o.o.k.d. (2020)</h3>
           <p>
             Obavljanje poslova kao dio controlling tima: controlling procedure,
@@ -99,17 +107,17 @@
         </div>
       </section>
 
-      <!-- Dodatno usavršavanje + Jezici -->
+      <!-- Additional educations and languages -->
       <div class="two-columns">
         <section>
           <h2>📚 Dodatno usavršavanje</h2>
 
           <div class="project">
-            <p>SQL - napredno korištenje (Algebra)</p>
             <p>ASP.NET developer tečaj (Algebra)</p>
+            <p>SQL - napredno korištenje (Algebra)</p>
             <p>Udemy, edX tečajevi (C#, VBA,...)</p>
             <p>Osnovni i napredni tečaj FME-a (Multisoft)</p>
-            <p>Stručni ispit (DGU)</p>
+            <p>Stručni ispit (Državna geodetska uprava)</p>
           </div>
         </section>
 
@@ -126,10 +134,13 @@
         </section>
       </div>
 
-      <!-- Kontakt forma -->
+      <!-- Contact -->
       <section class="no-print">
         <h2>📬 Kontakt</h2>
-        <p>Mislite da bih bila dobar fit za vaš tim? Upišite svoju email adresu i proslijedit ću vam svoj CV!</p>
+        <p>
+          Mislite da bih bila dobar fit za vaš tim? Upišite svoju email adresu i
+          proslijedit ću vam svoj CV!
+        </p>
 
         <form id="contactForm">
           <input type="text" id="name" placeholder="Vaše ime" required />
@@ -139,18 +150,23 @@
         <div id="formMessage"></div>
       </section>
 
-      <!-- QR kod + Download -->
+      <!-- QR code + Download -->
       <section class="qr-section">
         <p>Podijelite ovaj profil:</p>
-        <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://ctrlaltdelete3.github.io/MyCV/" alt="QR kod" class="qr-code" />
-        <button class="download-btn" onclick="window.print()">📄 Preuzmi CV</button>
+        <img
+          src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://ctrlaltdelete3.github.io/MyCV/"
+          alt="QR kod"
+          class="qr-code"
+        />
+        <button class="download-btn" onclick="window.print()">
+          📄 Preuzmi CV
+        </button>
       </section>
 
       <!-- Footer -->
       <footer>
         <p>
-          © 2025 Ivana Rumbočić | Dizajnirala ja, kodirao Claude. Tim iz snova.
-          🤝
+          © 2025 Ivana Rumbočić | CV designed by me; implemented by Claude. 🤝
         </p>
       </footer>
     </div>

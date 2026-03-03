@@ -100,9 +100,9 @@ section p {
 .skill-tag {
   background: #c07882;
   color: white;
-  padding: 8px 16px;
+  padding: 5px 11px;
   border-radius: 20px;
-  font-size: 0.9em;
+  font-size: 0.82em;
 }
 
 /* Projekti */
@@ -117,6 +117,11 @@ section p {
 .project h3 {
   color: #c07882;
   margin-bottom: 8px;
+  margin-top: 16px;
+}
+
+.project h3:first-child {
+  margin-top: 0;
 }
 
 .tech-used {
@@ -124,6 +129,11 @@ section p {
   color: #666;
   font-style: italic;
   margin-bottom: 10px;
+}
+
+.project ul {
+  margin: 8px 0 0 20px;
+  line-height: 1.8;
 }
 
 .project a {
@@ -253,6 +263,7 @@ footer {
   color: #777;
   border-top: 2px solid #f0d9dc;
   margin-top: 40px;
+  font-size: 0.8em;
 }
 
 /* Print / PDF */
