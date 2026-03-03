@@ -132,7 +132,9 @@ section p {
 }
 
 .project ul {
-  margin: 8px 0 0 20px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-left: 20px;
   line-height: 1.8;
 }
 
