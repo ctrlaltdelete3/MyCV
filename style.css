@@ -90,11 +90,38 @@ section p {
   line-height: 1.8;
 }
 
+/* Tehnologije - grupe */
+.skills-groups {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.skill-group {
+  flex: 1;
+  min-width: 180px;
+  background: #fdf6f7;
+  border: 1.5px solid #f0d9dc;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+}
+
+.skill-group-title {
+  font-size: 0.85em;
+  font-weight: 600;
+  color: #c07882;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
+}
+
 /* Tehnologije - tag-ovi */
 .skills {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 5px;
+  justify-content: center;
 }
 
 .skill-tag {
@@ -103,6 +130,23 @@ section p {
   padding: 5px 11px;
   border-radius: 20px;
   font-size: 0.82em;
+}
+
+/* Projekti - red */
+.projects-row {
+  display: flex;
+  gap: 20px;
+}
+
+.projects-row .project {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .projects-row {
+    flex-direction: column;
+  }
 }
 
 /* Projekti */
