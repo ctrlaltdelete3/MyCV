@@ -192,6 +192,15 @@ section p {
   text-decoration: underline;
 }
 
+.tech-used a {
+  color: #666;
+  font-weight: bold;
+}
+
+.tech-used a:hover {
+  text-decoration: underline;
+}
+
 /* Kontakt forma */
 .no-print {
   text-align: center;
