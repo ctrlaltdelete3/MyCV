@@ -23,28 +23,40 @@
               >
             </p>
           </div>
+          <button id="langToggle" class="lang-btn" onclick="toggleLanguage()">
+            <img
+              id="langFlag"
+              src="https://flagcdn.com/24x18/gb.png"
+              alt="EN"
+            />
+            <span id="langText">EN</span>
+          </button>
         </div>
       </header>
 
       <!-- About me -->
-      <!-- TODO: maybe add about me - tech & about me - cover letter (in separate tabs??)  -->
       <section>
-        <h2>👋 O meni</h2>
-        <p>
-          Ja sam backend .NET developer s tri i pol godine iskustva. Radila sam
-          na razvoju i održavanju financijskih aplikacija za klijente iz
-          bankarskog sektora - implementaciji novih funkcionalnosti,
-          refaktoriranju legacy programa, te održavanju postojećih projekata. U
-          IT svijet sam krenula samostalno, gradeći temeljna znanja kroz VBA,
-          SQL i .NET. Trenutno radim na vlastitim projektima kroz koje želim
-          proširiti znanja i na druge backend tehnologije poput Java Spring
-          Boota, kao i na frontend tehnologije - Typescript i Angular.
-        </p>
+        <h2 data-hr="👋 O meni" data-en="👋 About Me"></h2>
+        <p
+          data-hr="Ja sam backend .NET developer s tri i pol godine iskustva. 
+          Radila sam na razvoju i održavanju financijskih aplikacija za klijente iz 
+          bankarskog sektora - implementaciji novih funkcionalnosti, refaktoriranju 
+          legacy programa, te održavanju postojećih projekata. U IT svijet sam krenula 
+          samostalno, gradeći temeljna znanja kroz VBA, SQL i .NET. Trenutno radim na 
+          vlastitim projektima kroz koje želim proširiti znanja i na druge backend tehnologije 
+          poput Java Spring Boota, kao i na frontend tehnologije - Typescript i Angular."
+          data-en="I'm a backend .NET developer with 3.5+ years of experience. My work has
+           focused on developing and maintaining financial applications for banking sector 
+           clients - implementing new features, refactoring legacy code, and maintaining existing projects. 
+           I built my IT career through self-learning, starting with VBA and SQL, then moving on to .NET and C#. 
+           I'm currently working on personal projects to expand my skills into other backend technologies like Java
+            Spring Boot, as well as frontend - TypeScript and Angular."
+        ></p>
       </section>
 
       <!-- Skills -->
       <section>
-        <h2>🛠️ Tehnologije</h2>
+        <h2 data-hr="🛠️ Tehnologije" data-en="🛠️ Technologies"></h2>
         <div class="skills-groups">
           <div class="skill-group">
             <h3 class="skill-group-title">Hands-on Experience</h3>
@@ -78,7 +90,7 @@
 
       <!-- Work-in-progress -->
       <section>
-        <h2>🚧 Work in progress</h2>
+        <h2 data-hr="🚧 Work in progress" data-en="🚧 Work in Progress"></h2>
 
         <div class="projects-row">
           <div class="project">
@@ -87,14 +99,20 @@
                 >BookIt</a
               >
             </h3>
-            <p>
-              Platforma za upravljanje rezervacijama termina - namijenjena
-              trenerima, frizerima i sličnim pružateljima usluga.
-            </p>
+            <p
+              data-hr="Platforma za upravljanje rezervacijama termina - namijenjena trenerima, frizerima i 
+              sličnim pružateljima usluga."
+              data-en="An appointment booking and management platform - aimed at personal trainers, hairdressers, 
+              and similar service providers."
+            ></p>
             <p class="tech-used">
               Backend: C#, ASP.NET Core, Entity Framework Core, SQL Server
             </p>
-            <p class="tech-used">Frontend: Angular (u planu)</p>
+            <p
+              class="tech-used"
+              data-hr="Frontend: Angular (u planu)"
+              data-en="Frontend: Angular (planned)"
+            ></p>
             <p class="tech-used">
               🔗 Link:
               <a href="https://github.com/ctrlaltdelete3/BookIt" target="_blank"
@@ -111,14 +129,19 @@
                 >BurntToast</a
               >
             </h3>
-            <p>
-              Web aplikacija za spremanje recepata s raznih platformi, s
-              mogućnošću komentiranja, kategorizacije, ocjenjivanja recepata i
-              još puno cool featurea (sve sa svrhom da što više testiranih
-              recepata bude jestivo).
-            </p>
+            <p
+              data-hr="Web aplikacija za spremanje recepata s raznih platformi, s mogućnošću komentiranja, 
+              kategorizacije, ocjenjivanja recepata i još puno cool featurea (sve sa svrhom da što više 
+              testiranih recepata bude jestivo)."
+              data-en="A web application for saving recipes from various platforms, with support for notes, 
+              categorisation, ratings, and more - all in the hope that more of the tested recipes turn out edible."
+            ></p>
             <p class="tech-used">Backend: Java, Spring Boot, MySQL</p>
-            <p class="tech-used">Frontend: Angular (u izradi)</p>
+            <p
+              class="tech-used"
+              data-hr="Frontend: Angular (u izradi)"
+              data-en="Frontend: Angular"
+            ></p>
             <p class="tech-used">
               🔗 Link:
               <a
@@ -133,113 +156,174 @@
 
       <!-- Education -->
       <section>
-        <h2>🎓 Obrazovanje</h2>
+        <h2 data-hr="🎓 Obrazovanje" data-en="🎓 Education"></h2>
 
         <div class="project">
           <h3>Geodetski fakultet, Zagreb</h3>
           <p class="tech-used">2011 - 2016</p>
-          <p>
-            Sveučilišni prvostupnik geodezije i geoinformatike (2011 - 2014)
-          </p>
-          <p>
-            Magistra inženjerka geodezije i geoinformatike - smjer
-            Geoinformatika (2014 - 2016)
-          </p>
+          <p
+            data-hr="Sveučilišni prvostupnik geodezije i geoinformatike (2011 - 2014)"
+            data-en="Bachelor's in Geodesy and Geoinformatics (2011 - 2014)"
+          ></p>
+          <p
+            data-hr="Magistra inženjerka geodezije i geoinformatike - smjer Geoinformatika (2014 - 2016)"
+            data-en="Master's in Geodesy and Geoinformatics, specialization Geoinformatics (2014 - 2016)"
+          ></p>
         </div>
       </section>
 
       <!-- Work experience -->
       <section>
-        <h2>💼 Radno iskustvo</h2>
+        <h2 data-hr="💼 Radno iskustvo" data-en="💼 Work Experience"></h2>
 
         <div class="project">
           <h3>Mono d.o.o. (2021 - 2025)</h3>
-          <p>
-            Razvoj i održavanje backend logike u C# (.NET) za aplikacije u
-            financijskom sektoru:
-          </p>
+          <p
+            data-hr="Razvoj i održavanje backend logike u C# (.NET) za aplikacije u financijskom sektoru:"
+            data-en="Development and maintenance of backend logic in C# (.NET) for financial sector applications:"
+          ></p>
           <ul>
-            <li>implementacija novih funkcionalnosti</li>
-            <li>refaktoriranje i modernizacija postojećeg koda</li>
-            <li>rješavanje bugova i pružanje podrške klijentima</li>
-            <li>agilni razvoj korištenjem Kanban metodologije</li>
-            <li>
-              svakodnevna komunikacija s partnerima i klijentima iz SAD-a (na
-              samostalnim i timskim projektima)
-            </li>
+            <li
+              data-hr="implementacija novih funkcionalnosti"
+              data-en="implementation of new features"
+            ></li>
+            <li
+              data-hr="refaktoriranje i modernizacija postojećeg koda"
+              data-en="refactoring and modernisation of existing code"
+            ></li>
+            <li
+              data-hr="rješavanje bugova i pružanje podrške klijentima"
+              data-en="bug fixing and client support"
+            ></li>
+            <li
+              data-hr="agilni razvoj korištenjem Kanban metodologije"
+              data-en="agile development using Kanban methodology"
+            ></li>
+            <li
+              data-hr="svakodnevna komunikacija s partnerima i klijentima iz SAD-a (na samostalnim i timskim projektima)"
+              data-en="daily communication with partners and clients from the US (on both independent and team projects)"
+            ></li>
           </ul>
           <h3>Lidl Hrvatska d.o.o.k.d. (2020)</h3>
-          <p>
-            Obavljanje poslova kao dio controlling tima: controlling procedure,
-            izrada izvještaja, ubrzavanje procesa izradom programa u VBA.
-          </p>
+          <p
+            data-hr="Obavljanje poslova kao dio controlling tima: controlling procedure, izrada izvještaja, 
+            ubrzavanje procesa izradom programa u VBA."
+            data-en="Part of the controlling team: controlling procedures, report generation, and process 
+            automation using VBA."
+          ></p>
           <h3>Zavod za fotogrametriju d.d. (2018 - 2020)</h3>
-          <p>Zamjenica voditelja odjela Kartografije i GIS-a.</p>
+          <p
+            data-hr="Zamjenica voditelja odjela Kartografije i GIS-a."
+            data-en="Deputy Head of the Cartography and GIS Department."
+          ></p>
           <h3>Geometar d.o.o. (2016 - 2018)</h3>
-          <h3>Ericsson Nikola Tesla Servisi (2015 - 2016, studentski posao)</h3>
+          <h3
+            data-hr="Ericsson Nikola Tesla Servisi (2015 - 2016, studentski posao)"
+            data-en="Ericsson Nikola Tesla Servisi (2015 - 2016, student position)"
+          ></h3>
         </div>
       </section>
 
       <!-- Additional educations and languages -->
       <div class="two-columns">
         <section>
-          <h2>📚 Dodatno usavršavanje</h2>
+          <h2
+            data-hr="📚 Dodatno usavršavanje"
+            data-en="📚 Additional Training"
+          ></h2>
 
           <div class="project">
-            <p>ASP.NET developer tečaj (Algebra)</p>
-            <p>SQL - napredno korištenje (Algebra)</p>
-            <p>Udemy, edX tečajevi (C#, Angular, VBA, ...)</p>
-            <p>Osnovni i napredni tečaj FME-a (Multisoft)</p>
-            <p>Stručni ispit (Državna geodetska uprava)</p>
+            <p
+              data-hr="ASP.NET developer tečaj (Algebra)"
+              data-en="ASP.NET Developer Course (Algebra)"
+            ></p>
+            <p
+              data-hr="SQL - napredno korištenje (Algebra)"
+              data-en="Advanced SQL (Algebra)"
+            ></p>
+            <p
+              data-hr="Udemy, edX tečajevi (C#, Angular, VBA, ...)"
+              data-en="Udemy, edX courses (C#, Angular, VBA, ...)"
+            ></p>
+            <p
+              data-hr="Osnovni i napredni tečaj FME-a (Multisoft)"
+              data-en="FME Courses - Basic and Advanced (Multisoft)"
+            ></p>
+            <p
+              data-hr="Stručni ispit (Državna geodetska uprava)"
+              data-en="Professional Licensing Exam (State Geodetic Administration)"
+            ></p>
           </div>
         </section>
 
         <section>
-          <h2>🌍 Jezici</h2>
+          <h2 data-hr="🌍 Jezici" data-en="🌍 Languages"></h2>
 
           <div class="project">
-            <p>Engleski jezik (B2 - Cambridge ESOL Level 1 Certificate)</p>
-            <p>
-              Njemački jezik (B2/C1 - Deutsches Sprachdiplom) - blago zakržljao
-              od nekorištenja
-            </p>
+            <p
+              data-hr="Engleski jezik (B2 - Cambridge ESOL Level 1 Certificate)"
+              data-en="English (B2 - Cambridge ESOL Level 1 Certificate)"
+            ></p>
+            <p
+              data-hr="Njemački jezik (B2/C1 - Deutsches Sprachdiplom) - blago zakržljao od nekorištenja"
+              data-en="German (B2/C1 - Deutsches Sprachdiplom) — a bit rusty from lack of use"
+            ></p>
           </div>
         </section>
       </div>
 
       <!-- Contact -->
       <section class="no-print">
-        <h2>📬 Kontakt</h2>
-        <p>
-          Mislite da bih bila dobar fit za vaš tim? Upišite svoju email adresu i
-          proslijedit ću vam link na svoj CV!
-        </p>
+        <h2 data-hr="📬 Kontakt" data-en="📬 Contact"></h2>
+        <p
+          data-hr="Mislite da bih bila dobar fit za vaš tim? Upišite svoju email adresu i 
+          proslijedit ću vam link na svoj CV!"
+          data-en="Think I'd be a good fit for your team? Enter your email and I'll send 
+          you a link to my CV!"
+        ></p>
 
         <form id="contactForm">
-          <input type="text" id="name" placeholder="Vaše ime" required />
-          <input type="email" id="email" placeholder="Vaš email" required />
-          <button type="submit">Pošalji mail</button>
+          <input
+            type="text"
+            id="name"
+            data-placeholder-hr="Vaše ime"
+            data-placeholder-en="Your name"
+            placeholder="Vaše ime"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            data-placeholder-hr="Vaš email"
+            data-placeholder-en="Your email"
+            placeholder="Vaš email"
+            required
+          />
+          <button type="submit" data-hr="Pošalji mail" data-en="Send"></button>
         </form>
         <div id="formMessage"></div>
       </section>
 
       <!-- QR code + Download -->
       <section class="qr-section">
-        <p>Podijelite ovaj profil:</p>
+        <p data-hr="Podijelite ovaj profil:" data-en="Share this profile:"></p>
         <img
           src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://ctrlaltdelete3.github.io/MyCV/"
           alt="QR kod"
           class="qr-code"
         />
-        <button class="download-btn" onclick="window.print()">
-          📄 Preuzmi CV
-        </button>
+        <button
+          class="download-btn"
+          onclick="window.print()"
+          data-hr="📄 Preuzmi CV"
+          data-en="📄 Download CV"
+        ></button>
       </section>
 
       <!-- Footer -->
       <footer>
         <p>
-          © 2026 Ivana Rumbočić | CV designed & built in collaboration with
+          © 2026 Ivana Rumbočić | CV designed and built in collaboration with
           Claude — turns out AI is great at CSS and I'm great at having
           opinions.
         </p>
