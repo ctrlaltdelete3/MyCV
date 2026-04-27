@@ -350,6 +350,7 @@ footer {
 
   .no-print,
   .download-section,
+  .download-btn,
   footer {
     display: none !important;
   }
